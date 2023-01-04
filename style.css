@@ -31,6 +31,9 @@ min-height: 100vh;
         grid-template-columns: repeat(3,1fr);
         gap: 30px;
     }
+    .section__card{
+      display: inline-block;
+    }
   
     .slide-container{
         max-width: 1120px;
@@ -46,6 +49,7 @@ min-height: 100vh;
         width: 270px;
         border-radius: 28px;
         background-color: #FFF;
+        
       }
       .image-content,
       .card-content{
